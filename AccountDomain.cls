@@ -1,5 +1,5 @@
 public class AccountDomain {
-    
+    //domain changes debug
     public static void insertAccountRecord(Account accountObj, Id recordTypeId){       
         if(accountObj != null && recordTypeId != null){            
             accountObj.RecordTypeId = recordTypeId; 
